@@ -1,3 +1,10 @@
+# Release name
+PRODUCT_RELEASE_NAME := Samsung Galaxy Tab A
+CM_BUILDTYPE := NIGHTLY
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1024
+TARGET_SCREEN_WIDTH := 768
 
 # Inherit from common
 $(call inherit-product, device/samsung/gt-common/lineage.mk)
