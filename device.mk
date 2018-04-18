@@ -11,9 +11,3 @@ LOCAL_PATH := device/samsung/gt510wifi
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510wifi/overlay
-
-# RIL
-PRODUCT_PACKAGES += \
-    libril \
-    librilutils \
-    rild
