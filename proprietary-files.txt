@@ -11,18 +11,34 @@ etc/Speaker_cal.acdb
 
 # Audio
 lib/hw/audio.primary.msm8916.so
+lib/libaudio-resampler.so
+lib/libaudioroute.so
 lib/libaudio_soundtrigger.so
-lib/libSamsungPreProcess.so
+lib/libfloatingfeature.so
+lib/libsamsungearcare.so
+lib/libsamsungeffect.so
+lib/libSamsungPkcs11Wrapper.so
 lib/libSamsungPostProcess.so
-lib/libsamsungVoipResampler.so
+lib/libsamsungpowersound.so
+lib/libSamsungPreProcess.so
 lib/libsamsungRecord.so
 lib/libsamsungSoundbooster_ext.so
-lib/lib_soundaliveresampler.so
-lib/lib_SamsungRec_V04013.so
+lib/libsamsungSoundbooster_pgb.so
+lib/libsamsungVoipResampler.so
 lib/libsecaudioinfo.so
-lib/lib_SoundBooster_ver610.so
+lib/libSoundAlive_VSP_ver315b_arm.so
+lib/libtinyalsa.so
+lib/libtinycompress.so
+lib/lib_DNSe_EP_ver216c.so
+lib/lib_PreGainBooster_ver105.so
+lib/lib_SamsungRec_V04013.so
+lib/lib_SamsungVAD_v01009.so
+lib/lib_soundaliveresampler.so
+lib/lib_SoundAlive_3DPosition_ver202.so
+lib/lib_SoundAlive_play_plus_ver127a.so
 lib/lib_SoundAlive_SRC384_ver300.so
-lib/libfloatingfeature.so
+lib/lib_SoundBooster_ver610.so
+lib/soundfx/libaudiosaplus_sec.so
 
 # Camera
 lib/hw/camera.msm8916.so:lib/hw/camera.vendor.msm8916.so
@@ -65,6 +81,11 @@ vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
+
+# Ril (Used by audio hal)
+lib/libreference-ril.so
+lib/libril.so
+lib/librilutils.so
 
 # Qualcomm framework
 vendor/lib/libdiag.so
